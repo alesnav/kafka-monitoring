@@ -1,7 +1,7 @@
 # Welcome to the kafka-monitoring wiki!
 
-## First you have to install zabbix-java-gataway
-    yum install -y zabbix-java-gataway
+## First you have to install zabbix-java-gateway
+    yum install -y zabbix-java-gateway
 ## Configuring zabbix-java-gataway
     mcedit /etc/zabbix/zabbix_java_gateway.conf
 Uncoment and set **START_POLLERS=10**
